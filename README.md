@@ -44,7 +44,7 @@ I'm hoping to write a sample ltter
 which contains WITH number of orders 
 to be provisioned for WITH next week
 ```
-#### To relace the changes only in 2nd line :
+#### To replace the changes only in 2nd line :
 ```
 $ sed '2s/the/WITH/g' test1.txt
 I'm hoping to write a sample ltter
