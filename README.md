@@ -37,7 +37,7 @@ I'm hoping with write a sample ltter
 which contains the number of orders 
 with be provisioned for the next week
 ```
-#### To replace the matching words in each line :
+#### To replace all the matching words in each line :
 ```
 $ sed 's/the/WITH/g' test1.txt
 I'm hoping to write a sample ltter
