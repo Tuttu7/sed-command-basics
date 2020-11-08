@@ -58,4 +58,21 @@ $ sed '1d;2s/contains/WITH/g' test1.txt
 which WITH the number of orders 
 to be provisioned for the next week
 ```
+#### To insert blank spaces between each lines
+
+```
+sed G clean.txt
+```
+
+#### To inset double blanks paces between each lines
+`
+```
+sed 'G:G' clean.txt
+```
+
+#### To delete blank spaces between the lines 
+
+```
+sed '/^$/d' clean.txt > output.txt
+```
 
