@@ -64,7 +64,7 @@ to be provisioned for the next week
 sed G clean.txt
 ```
 
-#### To inset double blanks paces between each lines
+#### To inset double blanks spaces between each lines
 `
 ```
 sed 'G:G' clean.txt
